@@ -5,15 +5,18 @@ html {
 .links {
     width: 100%;
     text-align: center;
+    padding-top: 3%;
 }
 .links a {
+    color:white;
     text-align: center;
-    width: 20%;
+    width: 15%;
     font-size: 1.6rem;
     display: inline-block;
-    margin: 0 3%;
+    margin: 0 7%;
     border-radius: 1rem;
-    padding: .5rem;
+    padding: 1.5rem;
+    text-decoration: none;
 }
 .plan {
     background-color:#FF764E;
@@ -28,31 +31,88 @@ html {
 /* Image and title container */
 .info-container {
     text-align: center;
+    padding: 6% 3%;
 }
 .header-image {
     display: inline-block;
     width: 20%;
-    margin: 5%;
 }
 
 .header-image img {
-    border-radius: 10rem;
+    border-radius: 50%;
 }
 .title-container {
     text-align: center;
     display: inline-block;
-    margin: 5%;
+    /* margin: 1%; */
 }
 h1 {
     font-family: 'Chelsea Market';
-    font-size: 3.2rem;
-    padding: 2.5rem;
+    font-size: 5rem;
+    padding: 2.5rem 0;
 }
 .subtitle {
-    padding: 2rem;
+    font-size: 1.8rem;
+    padding: 2rem 0;
 }
 .subtitle2 {
-    padding: 2rem;
+    font-size: 1.8rem;
+    padding: 2rem 0;
     max-width: 55%;
-    margin-left: 22.5%;
+    margin: 0 auto;
+}
+/* --------------------------------------------*/
+
+/* main */
+.description {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 92%;
+    background-color:#DDB9A3;
+    margin-left: 4%;
+}
+
+.description p {
+    padding: 1.5rem;
+}
+
+.image1, .image2 {
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.image-container img {
+    width: 10%;
+}
+
+.image-container p {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.image-container {
+    margin-bottom: 5%;
+}
+/* ------------------------------------ */
+
+/* Footer  */
+footer {
+    background-image: url("assets/footer_img.jpg")
+}
+
+.footer-image {
+    width: 100%;
+    height: 40rem;
+}
+
+footer .links {
+    background-color:#F9E7DC;
+    padding-top:0;
+
+}
+
+footer .links a {
+    margin: 3% 7%;
 }
