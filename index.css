@@ -1,3 +1,25 @@
 html {
     font-size: 62.5%;
+    font-family: 'Roboto Mono';
+}
+.links {
+    width: 100%;
+    text-align: center;
+}
+.links a {
+    text-align: center;
+    width: 20%;
+    font-size: 1.6rem;
+    display: inline-block;
+    margin: 0 3%;
+    border-radius: 1rem;
+}
+.plan {
+    background-color:#FF764E;
+}
+.learn {
+    background-color:#5ED3EB;
+}
+.get {
+    background-color:#FFCD69;
 }
