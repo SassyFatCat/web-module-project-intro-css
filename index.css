@@ -116,3 +116,7 @@ footer .links {
 footer .links a {
     margin: 3% 7%;
 }
+/* -------------------------------------*/
+span {
+    font-weight: bold;
+}
