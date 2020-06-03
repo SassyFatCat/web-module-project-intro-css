@@ -13,6 +13,7 @@ html {
     display: inline-block;
     margin: 0 3%;
     border-radius: 1rem;
+    padding: .5rem;
 }
 .plan {
     background-color:#FF764E;
@@ -22,4 +23,36 @@ html {
 }
 .get {
     background-color:#FFCD69;
+}
+
+/* Image and title container */
+.info-container {
+    text-align: center;
+}
+.header-image {
+    display: inline-block;
+    width: 20%;
+    margin: 5%;
+}
+
+.header-image img {
+    border-radius: 10rem;
+}
+.title-container {
+    text-align: center;
+    display: inline-block;
+    margin: 5%;
+}
+h1 {
+    font-family: 'Chelsea Market';
+    font-size: 3.2rem;
+    padding: 2.5rem;
+}
+.subtitle {
+    padding: 2rem;
+}
+.subtitle2 {
+    padding: 2rem;
+    max-width: 55%;
+    margin-left: 22.5%;
 }
